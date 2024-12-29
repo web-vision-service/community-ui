@@ -1,0 +1,162 @@
+.regist-box {
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: 752px;
+    min-height: 100vh;
+}
+
+header {
+    box-sizing: border-box;
+
+    border-bottom: 15px solid gray;
+}
+
+header > nav {
+    display: flex;
+
+    border-bottom: 2.5px solid rgb(189, 189, 189);
+}
+
+header > nav > ul li{
+    box-sizing: border-box;
+    display: inline-block;
+
+    padding: 15px;
+}
+
+header > nav > ul li.current {
+    border-color: black;
+    margin-bottom: -2.5px;
+
+    font-weight: bold;
+}
+
+header > aside {
+    box-sizing: border-box;
+    display: flex;
+
+    margin: 20px 5px;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+}
+
+header > aside > div.banner {
+    display: flex;
+}
+
+header > aside > div > div.img-logo {
+    box-sizing: border-box;
+
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+
+header > aside > div > p {
+    box-sizing: border-box;
+    display: inline-block;
+
+    padding: 5px;
+    margin: 10px;
+}
+
+header > aside > div > p.banner-text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+main {
+    box-sizing: border-box;
+    max-width: 752px;
+    height: 950px;
+
+    display: block;
+}
+
+main > section {
+    box-sizing: border-box;
+}
+
+main > section > input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border: transparent;
+    outline: none;
+}
+
+main > section > input.title {
+    width: 630px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main > section > input.tag {
+    width: 630px;
+    font-size: 20px;
+}
+
+main > form {
+    box-sizing: border-box;
+}
+
+main > form.regist-frm {
+    padding: 10px;
+    margin: 10px;
+
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+}
+
+main > form > section.content-input {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+main > form > section > textarea {
+    border: none;
+}
+
+main > form > section > textarea.information-input {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    min-height: 730px;      
+
+    resize: none;
+    outline: none;
+}
+
+main > form > section.button-click {
+    box-sizing: border-box;
+
+    padding: 5px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+main > form > section > button.cancel-btn {
+    box-sizing: border-box;
+
+    padding: 5px 20px;
+    margin: 0 5px;
+
+    background-color: white;
+    border: 0.5px solid rgb(214, 214, 214);
+    border-radius: 4px;
+}
+
+main > form > section > button.register-btn {
+    box-sizing: border-box;
+
+    padding: 5px 20px;
+    margin: 0 5px;
+
+    background-color: black;
+    border: 0.5px solid black;
+    border-radius: 4px;
+    color: white;
+}

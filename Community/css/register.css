@@ -73,11 +73,15 @@ main {
     display: block;
 }
 
-main > section {
+main > form {
     box-sizing: border-box;
 }
 
-main > section > input {
+main > form > section {
+    box-sizing: border-box;
+}
+
+main > form > section > input {
     box-sizing: border-box;
     padding: 10px;
     margin: 10px;
@@ -85,19 +89,15 @@ main > section > input {
     outline: none;
 }
 
-main > section > input.title {
+main > form > section > input.title {
     width: 630px;
     font-size: 30px;
     font-weight: bold;
 }
 
-main > section > input.tag {
+main > form > section > input.tag {
     width: 630px;
     font-size: 20px;
-}
-
-main > form {
-    box-sizing: border-box;
 }
 
 main > form.regist-frm {

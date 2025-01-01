@@ -113,11 +113,11 @@ main > form > section.content-input {
     margin-bottom: 20px;
 }
 
-main > form > section > textarea {
+main > form > section > div {
     border: none;
 }
 
-main > form > section > textarea.information-input {
+main > form > section > div.information-input {
     box-sizing: border-box;
     width: 100%;
     height: auto;
@@ -126,6 +126,22 @@ main > form > section > textarea.information-input {
 
     resize: none;
     outline: none;
+}
+
+main > form > section > div > p {
+    font-weight: bold;
+    line-height: 200%;
+}
+
+main > form > section > div > ul > li {
+    line-height: 150%;
+}
+
+main > form > section > div > ul > li::before {
+    content: '\2022';
+    margin-right: 5px;
+    margin-left: 15px;
+    color: black;
 }
 
 main > form > section.button-click {

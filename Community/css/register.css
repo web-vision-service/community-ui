@@ -68,7 +68,7 @@ header > aside > div > p.banner-text {
 main {
     box-sizing: border-box;
     max-width: 752px;
-    height: 950px;
+    height: 100%;
 
     display: block;
 }

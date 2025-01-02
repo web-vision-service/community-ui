@@ -25,8 +25,8 @@ header > nav > ul li{
 }
 
 header > nav > ul li.current {
+    margin: 0 0 -2.5px;
     border-color: black;
-    margin-bottom: -2.5px;
 
     font-weight: bold;
 }

@@ -129,19 +129,19 @@ main > form > section > div.information-input {
 }
 
 main > form > section > div > p {
-    margin-left: 15px;
+    margin: 0 20px;
     font-weight: bold;
     line-height: 400%;
 }
 
 main > form > section > div > ul > li {
+    margin: 0 25px;
     line-height: 200%;
 }
 
 main > form > section > div > ul > li::before {
+    margin-right: 10px;
     content: '\2022';
-    margin-right: 5px;
-    margin-left: 20px;
     color: black;
 }
 
